@@ -227,6 +227,8 @@ dependencies {
     optional ("org.springframework.boot:spring-boot-configuration-processor") {
         exclude group: 'com.vaadin.external.google', module: 'android-json'
     }
+    compile "org.javers:javers-spring-boot-starter-mongo:3.5.0"
+    compile "org.mongodb:mongo-java-driver:3.4.2"
     //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
 }
 
