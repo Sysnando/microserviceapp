@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * Service Implementation for managing Book.
  */
 @Service
-public class BookServiceImpl implements BookService{
+public class BookServiceImpl implements BookService {
 
     private final Logger log = LoggerFactory.getLogger(BookServiceImpl.class);
 
