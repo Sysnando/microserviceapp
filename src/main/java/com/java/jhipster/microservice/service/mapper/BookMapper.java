@@ -11,7 +11,5 @@ import org.mapstruct.*;
 @Mapper(componentModel = "spring", uses = {})
 public interface BookMapper extends EntityMapper<BookDTO, Book> {
 
-    
 
-    
 }

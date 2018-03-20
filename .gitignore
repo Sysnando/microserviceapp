@@ -141,3 +141,5 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+gradle/wrapper/gradle-wrapper.jar
+*.jar
